@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int value = 10;
+int result = value * value;
+Console.WriteLine($"{result}");
