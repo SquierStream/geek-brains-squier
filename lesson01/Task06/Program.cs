@@ -4,9 +4,6 @@ string? getNumber = Console.ReadLine();
 int number = Convert.ToInt16(getNumber);
 
  if (number % 2 == 0) {
-    Console.Write("Введенное число является четным");
-    Console.Read();
-} else {
-    Console.Write("Введенное число нечетное");
-    Console.Read();
-}
+    Console.Write("Введенное число является четным");} 
+    else {
+    Console.Write("Введенное число нечетное");}
