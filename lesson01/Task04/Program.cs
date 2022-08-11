@@ -11,10 +11,6 @@ Console.WriteLine("Напишите третье число");
 string? thirdLine = Console.ReadLine();
 int thirdValue = Convert.ToInt16(thirdLine);
 
-int a = firstValue;
-int b = secondValue;
-int c = thirdValue;
-int max = Math.Max(a, b);
-max = Math.Max(max, c);
+int max = Math.Max(firstValue, secondValue);
+max = Math.Max(max, thirdValue);
 Console.WriteLine("Максимальное число " + max);
-Console.ReadLine();
